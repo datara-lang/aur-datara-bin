@@ -11,7 +11,7 @@ license=('Apache-2.0' 'MIT')
 provides=('datara' 'forgen')
 conflicts=('datara' 'forgen')
 source_x86_64=("https://github.com/datara-lang/datara/releases/download/v${pkgver}/forgen-linux-x64.tar.gz")
-sha256sums_x86_64=('9694fba29b4aff7f7deda381f0344af8621383e89fbf1011d6dcd3ac2afd614b')
+sha256sums_x86_64=('7cb9a64e563f65439e6b89d9b78491e34ec393facd8edbe52d33654f60f038eb')
 
 package() {
     cd "${srcdir}"
