@@ -1,6 +1,6 @@
 pkgbase = datara-bin
 	pkgdesc = High-performance Post-OOP systems and application programming language with Forgen compiler
-	pkgver = 1.4.1
+	pkgver = 1.4.5
 	pkgrel = 1
 	url = https://github.com/datara-lang/datara
 	arch = x86_64
@@ -10,7 +10,7 @@ pkgbase = datara-bin
 	provides = forgen
 	conflicts = datara
 	conflicts = forgen
-	source_x86_64 = https://github.com/datara-lang/datara/releases/download/v1.4.1/forgen-linux-x64.tar.gz
-	sha256sums_x86_64 = 7cb9a64e563f65439e6b89d9b78491e34ec393facd8edbe52d33654f60f038eb
+	source_x86_64 = https://github.com/datara-lang/datara/releases/download/v1.4.5/forgen-linux-x64.tar.gz
+	sha256sums_x86_64 = 77785f7ee68e0ab419d1bffa0eed04f4c60391f2016a6a85c7d5f317cdd97354
 
 pkgname = datara-bin
