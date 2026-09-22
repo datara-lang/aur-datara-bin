@@ -2,7 +2,7 @@
 # Contributor: Datara Language Project <https://github.com/datara-lang>
 
 pkgname=datara-bin
-pkgver=1.4.1
+pkgver=1.4.5
 pkgrel=1
 pkgdesc="High-performance Post-OOP systems and application programming language with Forgen compiler"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('Apache-2.0' 'MIT')
 provides=('datara' 'forgen')
 conflicts=('datara' 'forgen')
 source_x86_64=("https://github.com/datara-lang/datara/releases/download/v${pkgver}/forgen-linux-x64.tar.gz")
-sha256sums_x86_64=('7cb9a64e563f65439e6b89d9b78491e34ec393facd8edbe52d33654f60f038eb')
+sha256sums_x86_64=('77785f7ee68e0ab419d1bffa0eed04f4c60391f2016a6a85c7d5f317cdd97354')
 
 package() {
     cd "${srcdir}"
